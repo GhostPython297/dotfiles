@@ -1,0 +1,76 @@
+# default config with examples:
+# https://github.com/dunst-project/dunst/blob/master/dunstrc
+
+[global]
+icon_position = left  # Ícones à esquerda
+icon_theme = "Papirus-Dark"  # Use um tema de ícones minimalista
+text_icon_padding = 16  # Espaço entre ícone e texto
+icon_corner_radius = 6  # Cantos arredondados para ícones
+
+# Bordas arredondadas (valores entre 8 e 15 são comuns no macOS)
+corner_radius = 12
+frame_width = 2  # Borda fina
+frame_color = "#CCCCCC"  # Cinza suave
+
+# Transparência (ajuste conforme o tema claro/escuro)
+transparency = 10  # 0 = sólido, 100 = transparente
+
+# Espaçamento e padding
+padding = 12
+horizontal_padding = 16
+gap_size = 8  # Espaço entre notificações (substitui separadores)
+
+# Fonte (similar à "San Francisco" do macOS)
+font = "JetBrains Mono Medium 14"  # Use uma fonte sans-serif como Inter ou SF Pro
+format = "<b>%s</b>\n%b"  # Título em negrito, corpo normal
+
+# catppuccin mocha
+[urgency_low]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+frame_color = "#585b70"
+
+[urgency_normal]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+frame_color = "#585b70"
+
+[urgency_critical]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+frame_color = "#585b70"
+
+# macOS
+# [urgency_low]
+#     background = "#1a1b26"
+#     foreground = "#c0caf5"
+#     frame_color = "#565f89"
+#
+# [urgency_normal]
+#     background = "#1a1b26"
+#     foreground = "#c0caf5"
+#     frame_color = "#565f89"
+#
+# [urgency_critical]
+#     background = "#1a1b26"
+#     foreground = "#c0caf5"
+#     frame_color = "#565f89"
+
+# macOS
+# [urgency_low]
+# background = "#F5F5F7"  # Fundo claro
+# foreground = "#1C1C1E"  # Texto escuro
+# frame_color = "#D1D1D6"  # Borda cinza-claro
+# timeout = 5
+#
+# [urgency_normal]
+# background = "#FFFFFF"  # Branco puro
+# foreground = "#000000"  # Preto
+# frame_color = "#AEAEB2"  # Cinza médio
+# timeout = 10
+#
+# [urgency_critical]
+# background = "#FF3B30"  # Vermelho-alerta do macOS
+# foreground = "#FFFFFF"  # Texto branco
+# frame_color = "#FF3B30"
+# timeout = 0  # Permanece até ser fechado
