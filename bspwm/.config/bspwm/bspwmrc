@@ -15,17 +15,14 @@ bspc config focus_follows_pointer true
 # THEME
 bspc config border_width 4
 bspc config window_gap 0
-$HOME/.config/bspwm/themes/catppuccin.sh &
+"$HOME/.config/bspwm/themes/catppuccin.sh" &
 
-# $HOME/.config/bspwm/autostart.sh
 # AUTOSTART
-# mpv --profile=noloop ~/Músicas/sounds/MS-Win95-Startup.ogg && sleep 2 &
 pgrep redshift >/dev/null || redshift -c ~/.config/redshift.conf &
 pactl set-sink-volume 0 20% &
-nm-tray &
 flatpak list --columns=application --app >~/Dropbox/flatpaks.txt &
 polybar -r &
 nitrogen --restore &
 setxkbmap -option ctrl:swapcaps &
-.local/bin/syncthing serve --no-browser --logfile=default &
-/tmp/.mount_localsmvnIdi/localsend_app --hidden &
+# .local/bin/syncthing serve --no-browser --logfile=default &
+# /tmp/.mount_localsmvnIdi/localsend_app --hidden &
