@@ -1,16 +1,7 @@
 # Dotfiles
 
-Uso o chezmoi para gerenciar meus dotfiles.
+Arquivos de configuração do meu desktop.
 
-| Software                         | Detalhes                         |
-|----------------------------------|----------------------------------|
-| **OS**                           | Debian GNU/Linux                 |
-| **WM**                           | bspwm                            |
-| **Terminal**                     | alacritty                        |
-| **Multiplexador**                | tmux                             |
-| **Shell (alacritty)**        | fish                             |
-| **Editor**                       | lazyvim (nvim)                   |
-| **Gerenciador de notificações**  | dunst                            |
-| **Menu de aplicações**           | rofi                             |
+Uso o Gnu Stow para gerenciar meus dotfiles.
 
 ![Imagem de como é autualmente meu desktop](./screenshot.png)
