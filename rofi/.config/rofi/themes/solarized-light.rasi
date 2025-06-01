@@ -1,0 +1,21 @@
+* {
+  /* Fundo e superfícies claras */
+  base:     #FFFFFF; /* base4 */
+  surface0: #F1FBF0; /* base3 */
+  surface1: #E3E3DF; /* base2 */
+
+  /* Overlays */
+  overlay0: #BBC7D9; /* base1 */
+  overlay1: #879DA8; /* base0 */
+  overlay2: #637981; /* base00 */
+
+  /* Textos */
+  text:     #063540; /* base02 */
+  subtext1: #002C38; /* base03 */
+  subtext0: #001419; /* base04 */
+
+  /* Destaques */
+  accent:      #366E7D; /* blue500 */
+  accent-alt:  #31746A; /* cyan500 */
+  highlight:   #B87035; /* orange500 */
+}
