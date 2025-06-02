@@ -1,0 +1,28 @@
+# Colors (Custom Palette)
+colors:
+  # Default colors
+  primary:
+    background: '0x001419'  # bg
+    foreground: '0x839395'  # fg
+
+  # Normal colors
+  normal:
+    black:   '0x063540'  # base02
+    red:     '0xdb302d'  # red
+    green:   '0x849900'  # green
+    yellow:  '0xb28500'  # yellow
+    blue:    '0x268bd3'  # blue
+    magenta: '0xd23681'  # magenta
+    cyan:    '0x29a298'  # cyan
+    white:   '0xfdf5e2'  # base3
+
+  # Bright colors
+  bright:
+    black:   '0x002c38'  # base03
+    red:     '0xc94c16'  # orange (usado para bright red)
+    green:   '0x586600'  # green700
+    yellow:  '0x664c00'  # yellow700
+    blue:    '0x6d71c4'  # violet
+    magenta: '0xaf2668'  # magenta700
+    cyan:    '0x1a6265'  # cyan700
+    white:   '0xfdf5e2'  # base3 (repetido para bright white)

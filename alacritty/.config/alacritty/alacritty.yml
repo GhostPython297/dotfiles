@@ -1,0 +1,46 @@
+import:
+  - ~/.config/alacritty/themes/catppuccin-mocha.yml
+
+env:
+  TERM: "xterm-256color"
+
+window:
+  # dimensions:
+  #   columns: 70
+  #   lines: 21
+  padding:
+    x: 10
+    y: 10
+    dynamic_padding: true
+  decorations: full
+  opacity: 0.9
+  startup_mode: Maximized
+  # title: "[uwu]"
+  dynamic_title: true
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regular
+  size: 14
+  draw_bold_text_with_bright_colors: true
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+
+cursor:
+  style: Underline
+  blinking: On
+
+shell:
+  program: /bin/bash
+  args:
+    - -c
+    - "tmux new-session -A -s 'Main'"
+
+key_bindings:
+  - { key: J, mods: Control|Shift, action: ScrollLineDown }
+  - { key: K, mods: Control|Shift, action: ScrollLineUp }

@@ -1,0 +1,28 @@
+# Colors (Custom Palette Light)
+colors:
+  # Default colors
+  primary:
+    background: '0xfdf5e2'  # base3 (claro, fundo)
+    foreground: '0x576d74'  # base01 (texto escuro)
+
+  # Normal colors
+  normal:
+    black:   '0xede7d3'  # base2 (cinza claro)
+    red:     '0xf55350'  # red300 (vermelho claro)
+    green:   '0xb7f900'  # green300 (verde claro)
+    yellow:  '0xffbf00'  # yellow300 (amarelo claro)
+    blue:    '0x46acf5'  # blue300 (azul claro)
+    magenta: '0xf254a0'  # magenta300 (magenta claro)
+    cyan:    '0x2aeddd'  # cyan300 (ciano claro)
+    white:   '0xffffff'  # base4 (branco puro)
+
+  # Bright colors
+  bright:
+    black:   '0xd6ffad'  # green100 (verde muito claro, para contraste)
+    red:     '0xff9a99'  # red100 (vermelho muito claro)
+    green:   '0x586600'  # green700 (verde escuro para contraste)
+    yellow:  '0xffe899'  # yellow100 (amarelo muito claro)
+    blue:    '0xa8daff'  # blue100 (azul muito claro)
+    magenta: '0xff75b7'  # magenta100 (magenta muito claro)
+    cyan:    '0xb7fffa'  # cyan100 (ciano muito claro)
+    white:   '0xffffff'  # base4 (branco puro)
