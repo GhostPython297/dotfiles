@@ -47,6 +47,7 @@ alias lg="eza --classify --color=always --all --sort=type --long --header --link
 
 # Editor
 alias vi=nvim
+alias vim=nvim
 alias i=nvim
 
 # Ferramentas
