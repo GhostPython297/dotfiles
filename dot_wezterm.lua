@@ -48,7 +48,7 @@ return {
 	font_size = 14,
 
 	-- Aparência
-	color_scheme = "Catppuccin Mocha",
+  color_scheme = 'Everforest Dark (Gogh)',
 	window_background_opacity = 0.9,
 	window_padding = { left = 10, right = 10, top = 10, bottom = 10 },
 
