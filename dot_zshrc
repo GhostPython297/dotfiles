@@ -1,11 +1,5 @@
-# ── Powerlevel10k instant prompt ────────────────────────────────────────────
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
 # ── Oh My Zsh ────────────────────────────────────────────────────────────────
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(
   alias-finder
@@ -67,12 +61,12 @@ export NVM_DIR="$HOME/.nvm"
 
 # ── PATH ─────────────────────────────────────────────────────────────────────
 export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+export PATH="$HOME/gk:$PATH"
 
 # ── fzf ──────────────────────────────────────────────────────────────────────
 # Integração com o shell (Ctrl+R para histórico, Ctrl+T para arquivos)
 # Instalar: https://github.com/junegunn/fzf#installation
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# ── p10k ─────────────────────────────────────────────────────────────────────
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
+# ── Starship ─────────────────────────────────────────────────────────────────
+eval "$(starship init zsh)"
